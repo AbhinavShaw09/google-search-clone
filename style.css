@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  background-color: rgb(117, 117, 117);  
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navbar {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.navbar-gmail-text{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-items{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-profile {
+    height: 2rem;
+    border: 2px solid white;
+    border-radius: 100%;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-header {
+  font-size: 6rem;
+  font-weight: 500;
+  height: 10vh;
+}
+
+.search-input {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40rem;
+}
+
+.search-input > input {
+  height: 3rem;
+  width: 40rem;
+  border: 1px solid white;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-left: none;
+  outline: none;
+}
+
+.search-input > i {
+  height: 3rem;
+  width: 2rem;
+  margin-left: 0;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-left: -1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  outline: none;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: none;
+}
